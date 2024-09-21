@@ -3,11 +3,11 @@ import Logo from './assets/logo.svg'
 
 const Nav = () => {
   return (
-    <nav>
-        <figure>
+    <nav className='row'>
+        <figure className='grid-md-col-6'>
             <img src={Logo} alt="logo" />
         </figure>
-        <ul>
+        <ul className='grid-md-col-6'>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Menu</a></li>
