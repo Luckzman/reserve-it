@@ -1,0 +1,11 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+nav ul li a{ 
+    color: #000;
+    display: inline-block;
+}
