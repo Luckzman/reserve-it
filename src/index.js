@@ -6,17 +6,22 @@ import {
 } from "react-router-dom"
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Homepage from './pages/Homepage';
-import Booking from './pages/Booking';
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
+import BookingConfirmPage from './pages/BookingConfirmPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Homepage />,
+    element: <HomePage />,
   },
   {
-    path: "/booking",
-    element: <Booking />,
+    path: "booking",
+    element: <BookingPage />,
+  },
+  {
+    path: "/booking-success",
+    element: <BookingConfirmPage />,
   },
 ]);
 

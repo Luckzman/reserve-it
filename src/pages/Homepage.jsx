@@ -5,7 +5,7 @@ import Specials from '../Components/Specials'
 import Testimonials from '../Components/CustomersSay'
 import Chicago from '../Components/Chicago'
 
-const Homepage = () => {
+const HomePage = () => {
   return (
     <Layout>
        <CallToAction />
@@ -16,4 +16,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default HomePage
