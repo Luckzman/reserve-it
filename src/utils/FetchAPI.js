@@ -8,7 +8,6 @@ const fetchAPI = (date) => {
             if(seededHoursGenerator(date, hour + 7) < 0.5) result.push(hour + ':30');
         }
         setTimeout(() => {
-            console.log(date, 'date')
             if (date) resolve({ status: 200,  data: result });
             else reject({ status: 500, error: result });
         }, 500);

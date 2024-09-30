@@ -7,7 +7,7 @@ import {
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HomePage from './pages/HomePage';
-import BookingPage from './pages/BookingPage';
+import BookingPage from './pages/BookingPage/BookingPage';
 import BookingConfirmPage from './pages/BookingConfirmPage';
 
 const router = createBrowserRouter([
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "booking",
+    path: "/booking",
     element: <BookingPage />,
   },
   {

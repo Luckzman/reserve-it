@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer, useState } from 'react'
-import Layout from '../Components/Layout'
-import BookingForm from '../Components/BookingForm';
-import { api } from '../utils/FetchAPI';
+import Layout from '../../Components/Layout'
+import BookingForm from '../../Components/BookingForm/BookingForm';
+import { api } from '../../utils/FetchAPI';
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
 
