@@ -7,10 +7,10 @@ const Nav = () => {
   return (
     <nav className='container'>
         <div className='row padded-v-small'>
-            <div className='grid-md-col-3'>
-              <Link to="/"><img src={Logo} alt="logo" /></Link>
+            <div className=' grid-col grid-md-col-4'>
+              <Link to="/"><img src={Logo} alt="logo" style={{ width: '250px'}} /></Link>
             </div>
-            <ul className='grid-md-col-8 grid-md-start-6'>
+            <ul className='grid-col grid-md-col-8 flex flex-col flex-lg-row flex-start flex-lg-end gap-small gap-md-medium'>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/">About</Link></li>
                 <li><Link to="/">Menu</Link></li>

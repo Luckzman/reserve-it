@@ -74,7 +74,7 @@ describe('Booking Form', () => {
             expect(errorMessages.length).toBe(3)
 
         })
-        it('should redirect to success page if all fields are selected while submitting the form', async () => {
+        it('should redirect to booking success page if all fields are selected while submitting the form', async () => {
             render(<MockBookingForm />);
             const dateInputElement = screen.getByLabelText(/Choose date/i)
             fireEvent.change(dateInputElement, {target: {value: '2024-09-26'}})
