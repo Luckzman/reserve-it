@@ -140,6 +140,9 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 80px;
     padding-top: 80px;
 }
+.padded-l-small {
+  padding-left: 10px;
+}
 .space-none { margin-bottom: 0 !important; }
 .space-small { margin-bottom: 10px !important; }
 .space-medium { margin-bottom: 20px !important; }
@@ -165,10 +168,13 @@ p, h1, h2, h3, h4, h5, h6 {
 ul{
   padding: 0;
 }
+.relative {
+  position: relative;
+}
 
 /* button */
 .primary-button {
-  border-radius: 1rem;
+  border-radius: 7px;
   background-color: #f4ce14;
   color: #fff;
   width: 230px;
@@ -207,9 +213,9 @@ form label {
   font-size: 1.2rem;
   font-weight: 500;
 }
-input, select {
-  padding: 5px;
-  height: 40px;
+input, select, textarea {
+  padding: 15px;
+  border-radius: 7px;
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Markazi Text", serif; }

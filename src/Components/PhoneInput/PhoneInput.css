@@ -1,0 +1,75 @@
+.phone-input-wrapper {
+    width: 100%;
+    /* max-width: 300px; */
+    margin-bottom: 15px;
+}
+
+.phone-input-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    color: #000;
+  }
+  
+  .country-dropdown {
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    bottom: 1px;
+    z-index: 1;
+  }
+  
+  .selected-country {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    height: 100%;
+    background-color: #e3e3e4;
+    /* border-right: 1px solid #ccc; */
+    border-radius: 7px 0 0 7px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 80px;
+  }
+  
+  .country-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+    max-height: 200px;
+    min-width: 80px;
+    overflow-y: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .country-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .country-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .phone-input {
+    width: 100%;
+    padding: 15px;
+    padding-left: 70px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .phone-input:focus {
+    border-color: #007bff;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
