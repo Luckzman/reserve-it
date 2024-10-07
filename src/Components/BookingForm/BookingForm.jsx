@@ -19,7 +19,6 @@ const occasionOptions = [
     { value: 'anniversary', label: 'Anniversary' },
 ]
 
-const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 
 const step1ValidationSchema = Yup.object({
     availableDate: Yup.string().required("Date is Required"),

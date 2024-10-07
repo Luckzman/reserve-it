@@ -3,7 +3,7 @@ import { IoWarningOutline } from 'react-icons/io5'
 
 const Input = ({ formik, name, type='text', placeholder, label }) => {
   return (
-    <div className='flex flex-col relative'>
+    <div className={'flex flex-col relative'}>
         <label htmlFor={name}>{label}</label>
         <input
             id={name}
