@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reserve-it/static/css/main.d3b8068c.css",
+    "main.js": "/reserve-it/static/js/main.fda433bf.js",
+    "static/js/453.7dcbc500.chunk.js": "/reserve-it/static/js/453.7dcbc500.chunk.js",
+    "static/media/hero-img.png": "/reserve-it/static/media/hero-img.a46b4f34ab4b23548254.png",
+    "static/media/restaurant.jpg": "/reserve-it/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/lemon dessert.png": "/reserve-it/static/media/lemon dessert.b1e5dc659bfb38f0b6cc.png",
+    "static/media/logo.svg": "/reserve-it/static/media/logo.f72c913c48c5334f78f2c336ec36f22b.svg",
+    "static/media/fred.png": "/reserve-it/static/media/fred.7cedfbd0441b3b0ce398.png",
+    "index.html": "/reserve-it/index.html",
+    "main.d3b8068c.css.map": "/reserve-it/static/css/main.d3b8068c.css.map",
+    "main.fda433bf.js.map": "/reserve-it/static/js/main.fda433bf.js.map",
+    "453.7dcbc500.chunk.js.map": "/reserve-it/static/js/453.7dcbc500.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3b8068c.css",
+    "static/js/main.fda433bf.js"
+  ]
+}
